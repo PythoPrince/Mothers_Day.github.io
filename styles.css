@@ -1,0 +1,78 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #8beedc;
+background-image: linear-gradient(90deg, #c7f1e9 0%, #9FACE6 100%);
+
+
+
+
+
+    
+  }
+  
+  header {
+    /* background-color: #f0f0f0; */
+    background-color: #FEE140;
+background-image: linear-gradient(90deg, #FEE140 0%, #FA709A 100%);
+
+    padding: 20px;
+    text-align: center;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .video-section {
+    margin-top: 20px;
+    text-align: center;
+  }
+  
+  .video-container {
+    position: relative;
+    /* width: 100%; */
+    max-width: 330px;
+    margin: 0 auto;
+    /* height: 100px; */
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  }
+  
+  video {
+    width: 100%;
+  }
+  
+  .resolution-buttons {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .resolution-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .resolution-buttons button:hover {
+    background-color: #0056b3;
+  }
+
+  .font_family{
+    font-family: Bradley Hand, cursive;
+  }
+
+  .Box1{
+    height: 2px;
+  }
+
+  .Note{
+    text-align: center;
+    color: red;
+  }
+  
